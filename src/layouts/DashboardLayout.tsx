@@ -30,7 +30,7 @@ import {
   ShoppingCart,
   Users,
 } from "lucide-react";
-import { Link, Navigate, NavLink, Outlet } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router-dom";
 
 const DashboardLayout = () => {
   const { token, setToken } = useTokenStore((state) => state);
